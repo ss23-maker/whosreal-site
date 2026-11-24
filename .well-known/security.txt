@@ -1,0 +1,4 @@
+Contact: mailto:hello@orrery.site
+Expires: 2027-11-23T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://whosreal.site/.well-known/security.txt

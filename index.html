@@ -2,16 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-7cuyR1xb7V7Q6iw+coP8AeJBhmcwePBzDac+Dlocjw4='; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <link rel="icon" href="art/icon.png">
 <title>Who's Real?</title>
 <meta name="description" content="Read the group chat. Send the fakes home. Find the friend who's really real. A free game for Android.">
 <meta property="og:title" content="Who's Real?">
 <meta property="og:description" content="Eliminate the red flags. Find the green flag.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Nunito:wght@500;700;800;900&display=swap">
 <style>
+@font-face{font-family:'Bagel Fat One';font-weight:400;font-display:swap;src:url(fonts/bagel.woff2) format('woff2')}
+@font-face{font-family:'Nunito';font-weight:500;font-display:swap;src:url(fonts/nunito-500.woff2) format('woff2')}
+@font-face{font-family:'Nunito';font-weight:700;font-display:swap;src:url(fonts/nunito-700.woff2) format('woff2')}
+@font-face{font-family:'Nunito';font-weight:800;font-display:swap;src:url(fonts/nunito-800.woff2) format('woff2')}
+@font-face{font-family:'Nunito';font-weight:900;font-display:swap;src:url(fonts/nunito-900.woff2) format('woff2')}
 /* Layout: one phone-first column; the hero is a real group chat you can play, then how it works, the cast, the show, and a last call. */
 :root {
   --bg: #FFF0F6; --check: rgba(255, 79, 163, 0.075); --card: #FFFFFF; --ink: #3B1140; --muted: #6A3F68;
@@ -165,7 +169,7 @@ footer a { font-weight: 900; }
       <h1>Eliminate the red flags. <span class="gr">Find the green flag.</span></h1>
       <p class="sub">Read the group chat. Send the fakes home. Keep the friends who are really real.</p>
       <div class="acts">
-        <a class="cta" id="getit" href="https://ig.me/m/whosreal.game" target="_blank" rel="noopener">Join early access</a>
+        <a class="cta" id="getit" href="https://ig.me/m/whosreal.game" target="_blank" rel="noopener noreferrer">Join early access</a>
         <span class="note">Free on Android.<br>iPhone coming later.</span>
       </div>
     </div>
@@ -231,15 +235,15 @@ footer a { font-weight: 900; }
         <p class="lead">Who’s Real? started as a series where the comments decide who goes home. The game puts the vote in your hands.</p>
       </div>
       <div class="socials" id="socials">
-        <a class="soc" href="https://www.instagram.com/whosreal.game/" target="_blank" rel="noopener"><b>Instagram</b><span>@whosreal.game</span></a>
-        <a class="soc" href="https://www.youtube.com/@gfmaterialgame" target="_blank" rel="noopener"><b>YouTube</b><span>@gfmaterialgame</span></a>
+        <a class="soc" href="https://www.instagram.com/whosreal.game/" target="_blank" rel="noopener noreferrer"><b>Instagram</b><span>@whosreal.game</span></a>
+        <a class="soc" href="https://www.youtube.com/@gfmaterialgame" target="_blank" rel="noopener noreferrer"><b>YouTube</b><span>@gfmaterialgame</span></a>
       </div>
     </div>
   </section>
 
   <section class="wrap last" id="get" aria-labelledby="lastcall">
     <h2 id="lastcall">Your group chat won’t read itself.</h2>
-    <a class="cta" id="getit2" href="https://ig.me/m/whosreal.game" target="_blank" rel="noopener">Join early access</a>
+    <a class="cta" id="getit2" href="https://ig.me/m/whosreal.game" target="_blank" rel="noopener noreferrer">Join early access</a>
     <p class="note">Early access is invite only. Message us on Instagram to get in.</p>
   </section>
 </main>
