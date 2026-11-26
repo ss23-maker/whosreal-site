@@ -1,6 +1,6 @@
-# whosreal.site
+# whosrealgame.com
 
-The website for the Who's Real? game. Served by GitHub Pages at https://whosreal.site.
+The website for the Who's Real? game. Served by GitHub Pages at https://whosrealgame.com (moved from whosreal.site in November 2026).
 
 - `index.html` the home page, with a playable sample round
 - `privacy.html` the game's privacy policy
